@@ -1,0 +1,3 @@
+/home/bam4d/conan-emscripten-demo/consumer/build_wasm/CMakeFiles/rebuild_cache.dir
+/home/bam4d/conan-emscripten-demo/consumer/build_wasm/CMakeFiles/edit_cache.dir
+/home/bam4d/conan-emscripten-demo/consumer/build_wasm/CMakeFiles/main.dir

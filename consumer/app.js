@@ -1,5 +1,4 @@
-const c_funtions = require('./bin/c-functions.js');
-const cpp_funtions = require('./bin/cpp-functions.js')
+const c_funtions = require('./bin/wrapper.js');
 
 c_funtions().then((instance) => {
     var ZlibVersion = instance.cwrap('ZlibVersion', 'string', []);

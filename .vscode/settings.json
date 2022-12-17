@@ -1,0 +1,8 @@
+{
+  "cmake.sourceDirectory": "${workspaceFolder}/emsdk-demo-pkg",
+  "esbonio.sphinx.confDir": "",
+  "files.associations": {
+    "*.conf.template": "NGINX",
+    "functional": "cpp"
+  }
+}

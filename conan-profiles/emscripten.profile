@@ -6,4 +6,4 @@ compiler.version=14
 build_type=Release
 
 [build_requires]
-emsdk/2.0.30
+emsdk/3.1.23
