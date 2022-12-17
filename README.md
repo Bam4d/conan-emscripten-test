@@ -1,10 +1,14 @@
 # conan-emscripten-demo
 
-Create both C and C++ functions, compile them using emscripten with Conan using emsdk package and consume those functions from NodeJS.
+Minimal reproducible example for fixing emsdk + conan + emscripten builds
 
-```bash
-conan create emsdk-demo-pkg --profile:host=conan-profiles/emscripten.profile --profile:build=default --build=missing
-cd consumer
-conan install conanfile.txt --profile:host=../conan-profiles/emscripten.profile --profile:build=default
-node app.js
+Build the emscripten demo using cmake + conan
+
+1. Builds a library using emscripten
+2. Builds an executable (using emscripten) which Links to the libary -- THIS CURRENTLY FAILS
+
+
+You can run the entire thing here:
+```
+./run-demo.sh
 ```
