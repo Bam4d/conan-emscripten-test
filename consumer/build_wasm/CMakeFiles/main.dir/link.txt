@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/main.dir/main.cpp.o -o main  /home/bam4d/.conan/data/zlib/1.2.11/_/_/package/ed3213b5dc34976234aa8a4a92e51a91cf5f8751/lib/libz.a 

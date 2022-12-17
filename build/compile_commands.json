@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/bam4d/conan-emscripten-demo/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-9 -g -o CMakeFiles/EmscriptenWrapper.dir/EmscriptenWrapper.cpp.o -c /home/bam4d/conan-emscripten-demo/emsdk-demo-pkg/EmscriptenWrapper.cpp",
-  "file": "/home/bam4d/conan-emscripten-demo/emsdk-demo-pkg/EmscriptenWrapper.cpp"
-}
-]

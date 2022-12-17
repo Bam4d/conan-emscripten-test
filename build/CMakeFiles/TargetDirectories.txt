@@ -1,3 +1,0 @@
-/home/bam4d/conan-emscripten-demo/build/CMakeFiles/rebuild_cache.dir
-/home/bam4d/conan-emscripten-demo/build/CMakeFiles/edit_cache.dir
-/home/bam4d/conan-emscripten-demo/build/CMakeFiles/EmscriptenWrapper.dir
