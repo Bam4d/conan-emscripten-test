@@ -7,14 +7,14 @@
 
 class EmscriptenWrapper {
 
+public:
   EmscriptenWrapper();
-
   std::string ZlibVersion();
-}
+};
 
 EMSCRIPTEN_BINDINGS(ZlibJS) {
 
-  e::class_<EmscriptenWrapper>("EmscriptenWrapper")
+  emscripten::class_<EmscriptenWrapper>("EmscriptenWrapper")
       .constructor()
       .function("ZlibVersion", &EmscriptenWrapper::ZlibVersion);
 }

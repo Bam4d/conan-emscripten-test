@@ -2,7 +2,9 @@
 
 Minimal reproducible example for fixing emsdk + conan + emscripten builds
 
-Build the emscripten demo using cmake + conan
+## conan-cmake
+
+Build the emscripten demo using conan-cmake
 
 1. Builds a library using emscripten
 2. Builds an executable (using emscripten) which Links to the libary -- THIS CURRENTLY FAILS
@@ -10,5 +12,11 @@ Build the emscripten demo using cmake + conan
 
 You can run the entire thing here:
 ```
-./run-demo.sh
+./run_no_conan_cmake.sh
 ```
+
+
+## Without conan-cmake
+
+Build the emscripten demo using conan directly and setting a CMakeToolchain 
+

@@ -1,11 +1,7 @@
-const c_funtions = require('./bin/wrapper.js');
+wrapper = require("../build_wasm/main.js");
 
-c_funtions().then((instance) => {
-    var ZlibVersion = instance.cwrap('ZlibVersion', 'string', []);
-    console.log("zlib version is: " + ZlibVersion());
+wrapper().then(function(result) {
+  zlibWrapper = new result.EmscriptenWrapper()
+
+  console.log(zlibWrapper.ZlibVersion());
 });
-
-cpp_funtions.onRuntimeInitialized = async _ => {
-    zlibVersion = cpp_funtions.ZlibVersion();
-    console.log("zlib version is: " + zlibVersion);
-}
