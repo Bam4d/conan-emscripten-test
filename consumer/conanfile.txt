@@ -1,5 +1,7 @@
 [requires]
 zlib/1.2.13
+glm/0.9.9.8
+yaml-cpp/0.6.3
 [generators]
 CMakeToolchain
 cmake_paths
