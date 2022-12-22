@@ -5,6 +5,6 @@ yaml-cpp/0.6.3
 
 [generators]
 CMakeToolchain
-cmake_paths
-cmake_find_package
+CMakeDeps
+VirtualBuildEnv
 

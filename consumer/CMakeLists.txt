@@ -2,8 +2,6 @@ cmake_minimum_required(VERSION 3.15)
 
 project(ConanHello)
 
-include(${PROJECT_BINARY_DIR}/conan_paths.cmake)
-
 find_package(ZLIB)
 find_package(glm)
 find_package(yaml-cpp)
@@ -25,4 +23,4 @@ set_target_properties(
   LINK_FLAGS
   "-lembind -sMODULARIZE=1"
 )
-target_link_libraries(main ZLIB::ZLIB glm::glm yaml-cpp::yaml-cpp)
+target_link_libraries(main ZLIB::ZLIB glm::glm yaml-cpp)
