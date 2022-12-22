@@ -7,3 +7,4 @@ consumer/graph_info.json
 consumer/bin
 build/
 build_wasm/
+.vscode/
